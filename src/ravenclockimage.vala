@@ -24,8 +24,8 @@ class ClockInfo : Object {
     /* A lot of math goes into figuring where to draw everything and it gets confusing
        where to make the adjuctments if we need to make small tweaks to the appearance
        (like lengths or widths of clock parts.) In addition, all these values really only
-       changed when the clock size changes, so if we automatically update them all when
-       the size variable is changed, we can avoid re- running these calculations every time
+       change when the clock size changes, so if we automatically update them all when
+       the size variable is changed, we can avoid re-running these calculations every time
        the clock is redrawn.
     */
     private int _size;
@@ -83,7 +83,7 @@ class ClockInfo : Object {
     }
 
     private int result_with_min(int min, double math) {
-        return math < 1 ? 1 : (int) math;
+        return math < min ? min : (int) math;
     }
 }
 

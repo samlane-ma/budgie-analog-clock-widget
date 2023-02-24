@@ -1,6 +1,11 @@
 # Budgie Analog Clock Widget
 
-### W.I.P.
+### This project was merged into the analogue-clock-applet
+
+### The updated project can be found at:
+### https://github.com/samlane-ma/analogue-clock-applet
+
+### It will still be able to be used separately if so desired.
 
 ![Screenshot](./images/analog-clock.png)
 
